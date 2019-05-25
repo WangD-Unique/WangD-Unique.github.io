@@ -5,7 +5,7 @@ email: 965513460@qq.com
 description: > # this means to ignore newlines until "baseurl:"
   程序猿. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https:/wangd-unique.com" # the base hostname & protocol for your site
+url: "https://wangd-unique.github.io" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
 author: "Wang Di"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
