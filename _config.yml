@@ -1,14 +1,13 @@
 # Site settings
-title: Your awesome title
-tagline: And Tagline
-email: gayanvirajith@gmail.com
+title: 王荻的博客
+tagline: 树欲动，然风欲止
+email: 965513460@qq.com
 description: > # this means to ignore newlines until "baseurl:"
-  Hi, I’m a professional UI/UX designer and web developer. 
-  I love being minimal and creative.
+  程序猿. 
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "https://wangd-unique.github.io" # the base hostname & protocol for your site
+url: "https:/wangd-unique.com" # the base hostname & protocol for your site
 logourl: /assets/images/logo.png # Site logo
-author: "Tom Warlker"
+author: "Wang Di"
 author_thumbnail: "/assets/images/avatar.jpg" # Author avatar
 # Theme customization - please change from the defaults!
 theme:
@@ -16,12 +15,12 @@ theme:
   highlight_color: "#205081" #205081" # "#272935"
   # Social media links, leave blank to ignore
   social: 
-    github: gayanvirajith
-    twitter: gayanvirajith
-    facebook: gayanvirajith
-    gplus: +gayanvirajith
+    github: wangd-unique
+    # twitter: gayanvirajith
+    # facebook: gayanvirajith
+    # gplus: +gayanvirajith
     # dribble: gayanvirajith
-    pinterest: gayanvirajith
+    # pinterest: gayanvirajith
 
   # Enable share buttons on post footer
   show_share_buttons: true
