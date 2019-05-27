@@ -6,19 +6,15 @@ banner_image: sample-banner-image-2.jpg
 banner_image_alt: About me
 ---
 
-Hi, I am Tom Warlker. I am a professional UI/UX designer and web developer. I love being minimal and creative.
-
-I prefer to serve with PHP and Ruby based stacks and also love to work 
-on [Jekyll][jekyll] and [Processwire CMS/CMF][pw].
+Hi，我是王荻，正在全方位Building...
 
 ### Contact me
 
-Say `Hello` at gayanvirajith@gmail.com or find
-me on
+Say `Hello` at 965513460@qq.com
 
 ---
 
-{% include social.html %}
+[//]: # {% include social.html %}
 
-[pw]: http://processwire.com
-[jekyll]: http://jekyllrb.com
+[//]: #[pw]: <http://processwire.com>
+[//]: #[jekyll]: <http://jekyllrb.com>
