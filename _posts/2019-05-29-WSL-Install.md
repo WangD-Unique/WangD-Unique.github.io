@@ -20,3 +20,5 @@ Windows 10左下的Win（Windows的“开始”）图标，找到设置->更新�
 ![WSL-2](https://wangd-unique.github.io/_images/WSL/WSL-2.png?v8){:height="300" width="300"}
 
 ![WSL-3](https://wangd-unique.github.io/_images/WSL/WSL-3.png?v8){:height="300" width="300"}
+
+<img style="width:300px;height:300px" src="https://wangd-unique.github.io/_images/WSL/WSL-3.png?v8" alt="真棒" align=center />
