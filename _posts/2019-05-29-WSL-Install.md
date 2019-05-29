@@ -15,8 +15,6 @@ comments: true
 
 Windows 10左下的Win（Windows的“开始”）图标，找到设置->更新和安全->开发者选项->勾选“开发人员模式”
 
-![WSL-1](../assets/images/WSL/WSL-1.png){:height="100" width="100"}
-
-![WSL-2](../assets/images/WSL/WSL-2.png){:height="100" width="100"}
-
-![WSL-3](../assets/images/WSL/WSL-3.png){:height="100" width="100"}
+<img style="width:300px;height:300px" src="../assets/images/WSL/WSL-1.png"  alt="WSL-1" align=center />
+<img style="width:300px;height:300px" src="../assets/images/WSL/WSL-2.png"  alt="WSL-2" align=center />
+<img style="width:300px;height:300px" src="../assets/images/WSL/WSL-3.png"  alt="WSL-3" align=center />
