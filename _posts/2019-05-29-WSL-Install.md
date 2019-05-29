@@ -11,7 +11,7 @@ comments: true
 
 ## 准备工作
 
-1. 开发人员模式
+### 开发人员模式
 
 Windows 10左下的Win（Windows的“开始”）图标，找到设置->更新和安全->开发者选项->勾选“开发人员模式”。
 
@@ -19,7 +19,7 @@ Windows 10左下的Win（Windows的“开始”）图标，找到设置->更新�
 ![WSL-2][WSL-2]{:height="300" width="300"}
 ![WSL-3][WSL-3]{:height="300" width="300"}
 
-2. 启用或关闭Windows功能
+### 启用或关闭Windows功能
 
 打开“控制面板”->下拉，选中显示小图标->选中“程序和功能”->选中“启用或关闭 Windows功能”->勾选“适用于Linux的Windows子系统”，并点击确定。
 
