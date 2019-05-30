@@ -9,6 +9,10 @@ banner_image: WSL.png
 comments: true
 ---
 
+<font size="2">版权声明：本文为原创文章，转载请注明作者和出处。</font>
+
+---
+
 ## 准备工作
 
 ### 开发人员模式
