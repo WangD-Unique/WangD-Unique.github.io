@@ -10,6 +10,8 @@ banner_image: sample-banner-image-3.jpg
 comments: true
 ---
 
+<font size="1">版权声明：本文为原创文章，转载请注明作者和出处。</font>
+
 北京时间2019年5月3日，在PyCon 2019的大会上，微软发布了VS Code Remote。官推消息称，有希望在七月初进入VS Code稳定版，即目前想使用该特性，还需要暂时使用VS Code Insiders版本。
 
 VS Code 官方URL：<https://code.visualstudio.com/>
