@@ -65,7 +65,7 @@ sudo pip install xmltodict
 
 Go安装：
 
-1. wget <http://prdownloads.sourceforge.net/scons/scons-3.0.3.tar.gz>
+1. wget <https://dl.google.com/go/go1.12.5.linux-amd64.tar.gz>
 2. sudo tar -C /usr/local -xzf go1.12.5.linux-amd64.tar.gz
 3. sudo echo "export PATH=$PATH:/usr/local/go/bin" >> /etc/profile
 
