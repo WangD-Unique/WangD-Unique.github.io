@@ -61,7 +61,7 @@ sudo apt install build-essential cmake make
 
 这里主要是我个人的需要，大家可以不用关注哦。
 
-sudo apt install lftp libxml2 libxml2-dev python cscope
+sudo apt install lftp libxml2 libxml2-dev python python-dev python-pip cscope
 
 sudo pip install xmltodict
 
