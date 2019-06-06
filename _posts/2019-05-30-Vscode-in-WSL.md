@@ -89,6 +89,8 @@ code-checkout.sh拷贝：
 
 sudo scp root@172.17.5.203:/usr/bin/code-checkout.sh /usr/bin/
 
+## WSL
+
 ### 新建 WSL 窗口
 
 新建一个WSL窗口，需要在左下角点击><，在弹出的选择框内选择Remote-WSL：New Window
