@@ -128,6 +128,8 @@ Include Path配置：
 
 这里隐去了公司的一些路径配置，如我司内部人员想偷懒的话，可以联系我获取。
 
+该配置文件应位于.vscode，名为c_cpp_properties.json
+
 ```json
 {
     "configurations": [
@@ -175,9 +177,7 @@ CoolFormatExec的下载链接：<https://sourceforge.net/projects/coolformat/fil
 }
 ```
 
-"coolformat.executable":
-
-"coolformat"->"coolformat.executable": "CoolFormatExec"，同时可以使用CoolFormat定义CoolFormatConfig.cfconfig，CoolFormatConfig.cfconfig内容：
+该文件CoolFormatConfig.cfconfig应位于上述"coolformat.coolformatrc"指定的路径内，其内容：
 
 ```text
 [SynTidy]
