@@ -14,7 +14,7 @@ comments: true
 
 ---
 
-北京时间2019年5月3日，在PyCon 2019的大会上，微软发布了VS Code Remote。官推消息称，有希望在七月初进入VS Code稳定版，即目前想使用该特性，还需要暂时使用VS Code Insiders版本。
+北京时间2019年5月3日，在PyCon 2019的大会上，微软发布了VS Code Remote。支持该特性需要Stable 1.35.0以上的版本，或Insiders版本。
 
 ![VSCode-8][VSCode-8]
 
