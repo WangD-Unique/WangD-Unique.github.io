@@ -120,9 +120,7 @@ C/C++扩展配置：
 
 ```json
 {
-    "[c]": {
-        "editor.defaultFormatter": "WuHuan.vscode-coolformat"
-    }
+    "C_Cpp.formatting" : "Disabled"
 }
 ```
 
@@ -164,6 +162,12 @@ CoolFormatExec的下载链接：<https://sourceforge.net/projects/coolformat/fil
 {
     "coolformat.coolformatrc": "/mnt/d/WSL/Tools/Coolformat",
     "coolformat.executable": "CoolFormatExec",
+    "[c]": {
+        "editor.defaultFormatter": "WuHuan.vscode-coolformat"
+    },
+    "[cpp]": {
+        "editor.defaultFormatter": "WuHuan.vscode-coolformat"
+    },
 }
 ```
 
@@ -171,9 +175,13 @@ CoolFormatExec的下载链接：<https://sourceforge.net/projects/coolformat/fil
 
 ```json
 {
+    "C_Cpp.formatting" : "Disabled",
     "coolformat.coolformatrc": "/mnt/d/WSL/Tools/Coolformat",
     "coolformat.executable": "CoolFormatExec",
     "[c]": {
+        "editor.defaultFormatter": "WuHuan.vscode-coolformat"
+    },
+    "[cpp]": {
         "editor.defaultFormatter": "WuHuan.vscode-coolformat"
     }
 }
