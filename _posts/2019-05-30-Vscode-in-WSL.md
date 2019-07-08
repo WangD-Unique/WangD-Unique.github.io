@@ -79,7 +79,7 @@ scons安装：
 
 repo安装：
 
-sudo apt-get install phablet-tools
+sudo apt-get install repo
 
 这里有个偷懒的方法，就是直接找一个地方拷贝过来用。：）
 
@@ -91,6 +91,13 @@ sudo scp root@172.17.5.203:/usr/bin/code-checkout.sh /usr/bin/
 
 ## WSL
 
+### VS Code 插件安装
+
+以下插件都应安装在Local中：
+
+* Remote Development，发布者: Microsoft
+* Chinese (Simplified) Language Pack for Visual Studio Code，发布者: Microsoft
+
 ### 新建 WSL 窗口
 
 新建一个WSL窗口，需要在左下角点击><，在弹出的选择框内选择Remote-WSL：New Window
@@ -99,17 +106,13 @@ sudo scp root@172.17.5.203:/usr/bin/code-checkout.sh /usr/bin/
 
 ![VSCode-7][VSCode-7]
 
-### VS Code 插件安装
-
 以下插件都应安装在WSL中：
 
-* Remote Development，发布者: Microsoft
-* Chinese (Simplified) Language Pack for Visual Studio Code，发布者: Microsoft
 * C/C++，发布者: Microsoft
 * scope4code，发布者: Leon
 * CoolFormat，发布者: WuHuan，安装方法：ext install vscode-astyle（目前还没有发布，所以暂时无效，请至网站下载<https://sourceforge.net/projects/coolformat/files/Plugins/VSCode/>）
 * Go，发布者: Microsoft
-* SFTP，发布者: liximomo
+* VS Code SFTP，发布者: suntobright
 * Text Marker (Highlighter)，发布者: Ryuichi Inagaki
 
 ### C语言环境配置
