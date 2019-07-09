@@ -112,7 +112,7 @@ sudo scp root@172.17.5.203:/usr/bin/code-checkout.sh /usr/bin/
 * scope4code，发布者: Leon
 * CoolFormat，发布者: WuHuan，安装方法：ext install vscode-astyle（目前还没有发布，所以暂时无效，请至网站下载<https://sourceforge.net/projects/coolformat/files/Plugins/VSCode/>）
 * Go，发布者: Microsoft
-* VS Code SFTP，发布者: suntobright
+* Push, 发布者: N Anderson
 * Text Marker (Highlighter)，发布者: Ryuichi Inagaki
 
 ### C语言环境配置
@@ -206,20 +206,6 @@ CSS=""-c2-rub-cl0-os1-cc-cf-cfp0-rs2""
 JSON=""-cn3""
 SQL=""-cn2-el-ml0""
 Verilog=""-A1""
-```
-
-Sftp配置：
-
-```json
-{
-    "name": "My Server",
-    "host": "x.x.x.x",
-    "protocol": "sftp",
-    "port": 22,
-    "username": "wangd",
-    "remotePath": "/home/wangd/Code/xxx",
-    "uploadOnSave": true
-}
 ```
 
 C/C++插件的引擎会自动构建tag，但是想类似SourceInsight那种查找引用关系的话，需要使用scope4code插件，使用方法为：
