@@ -234,13 +234,15 @@ Ctrl+Shift+p，执行Build database
 
 Go语言的环境配置相对来讲要麻烦一些，主要是由于中国墙的原因，需要我们做以下动作：
 
-WSL中配置GOPATH，export GOPATH=/home/wangd/go
+WSL中配置GOPATH，export GOPATH=~/go
 
 ```bash
+mkdir -p ~/go/src
 cd $GOPATH/src
 mkdir -p github.com/golang
 cd $GOPATH/src/github.com/golang
-git clone <https://github.com/golang/tools.git>  tools，git clone <https://github.com/golang/lint.git> lint
+git clone https://github.com/golang/tools.git tools
+git clone https://github.com/golang/lint.git lint
 cd -
 mkdir -p golang.org/x
 ln -s $PWD/github.com/golang/tools/ $PWD/golang.org/x/tools
