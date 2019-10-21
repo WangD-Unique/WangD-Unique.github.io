@@ -16,7 +16,7 @@
 <meta property="og:site_name" content="王荻的博客">
 <meta property="og:description" content="版权声明：本文为原创文章，转载请注明作者和出处。  主要介绍基于Windows10的WSL下hexo+Github的方式完成Blog搭建。所以，在一切开始之前，请先注册Github账号，并安装WSL（请参考本Blog的WSL安装一文）。hexo官方URL：https:&#x2F;&#x2F;hexo.io&#x2F; https:&#x2F;&#x2F;github.com&#x2F;hexojs&#x2F;hexoGitHub官方URL：https:&#x2F;&#x2F;githu">
 <meta property="og:locale" content="ch">
-<meta property="og:updated_time" content="2019-10-21T11:00:23.599Z">
+<meta property="og:updated_time" content="2019-10-21T11:18:00.925Z">
 <meta name="twitter:card" content="summary">
   
     <link rel="alternative" href="/atom.xml" title="王荻的博客" type="application/atom+xml">
@@ -184,14 +184,14 @@
 <li>sudo n stable</li>
 <li>sudo n lts</li>
 <li>sudo npm install npm@latest -g</li>
-<li>sudo npm install –save core-js@3</li>
-<li>sudo npm install hexo-deployer-git –save</li>
+<li>sudo npm install &#45;&#45;save core-js@3</li>
+<li>sudo npm install -g hexo</li>
+<li>sudo npm install hexo-deployer-git &#45;&#45;save</li>
 <li>sudo node -v</li>
 <li>sudo npm -v</li>
 </ol>
 <a id="more"></a>
 
-<h3 id="hexo安装"><a href="#hexo安装" class="headerlink" title="hexo安装"></a>hexo安装</h3><p>sudo npm install -g hexo</p>
 <h3 id="Git环境设置"><a href="#Git环境设置" class="headerlink" title="Git环境设置"></a>Git环境设置</h3><p>主要是为了可以上传源码至Github，本文采用SSH Key的方式，毕竟HTTP的方式不太安全。</p>
 <figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">cd</span> ~</span><br><span class="line">ssh-keygen -t rsa -C <span class="string">"Your E-Mail Address"</span></span><br><span class="line">cat .ssh/id_rsa.pub</span><br></pre></td></tr></table></figure>
 
